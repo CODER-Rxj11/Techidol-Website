@@ -1,0 +1,22 @@
+.services {
+	min-height: 40%;
+	width: 100%;
+	background-color: var(--servicesbg);
+	padding: 5rem 6rem;
+	> h2 {
+		margin: 1.4rem 0;
+		font-size: 5.5rem;
+	}
+	> p {
+		font-size: 1.7rem;
+		line-height: 1.3;
+		font-weight: 500;
+		text-wrap: balance;
+	}
+	> button {
+		padding: 1.2rem 2.6rem;
+		background-color: var(--secondary);
+		margin: 2rem auto;
+		display: block;
+	}
+}
