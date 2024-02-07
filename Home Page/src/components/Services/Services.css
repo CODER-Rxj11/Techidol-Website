@@ -1,5 +1,5 @@
 .services {
-	min-height: 40%;
+	min-height: 40vh;
 	position: relative;
 	width: 100%;
 	background-color: var(--servicesbg);
@@ -29,6 +29,7 @@
 		min-height: 50%;
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
 		width: 100%;
 		padding: 2rem 1rem;
 		> img {
@@ -39,8 +40,13 @@
 		}
 		> div {
 			height: 40%;
-			width: 50%;
-			background-color: red;
+			width: 38%;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			row-gap: 3rem;
+			/* background-color: red; */
 		}
 	}
 	> img {
@@ -48,6 +54,44 @@
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		width: 30%;
+		width: 18%;
+	}
+}
+
+.box {
+	cursor: pointer;
+	> svg {
+		font-size: 3rem;
+		color: white;
+		margin-left: auto;
+	}
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding: 1.2rem 0;
+	gap: 2rem;
+	border-bottom: 1px solid white;
+	> div {
+		&:first-child {
+			padding: 2rem;
+			display: flex;
+			border: 1px solid white;
+			align-items: center;
+			justify-content: center;
+			border-radius: 50%;
+			> svg {
+				font-size: 3rem;
+				color: var(--primary);
+			}
+		}
+		&:nth-child(2) {
+			> h3 {
+				font-size: 3rem;
+			}
+			> p {
+				font-size: 1.7rem;
+				font-weight: 400;
+			}
+		}
 	}
 }

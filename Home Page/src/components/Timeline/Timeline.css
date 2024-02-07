@@ -1,7 +1,7 @@
 .timeline {
 	min-height: 50%;
 	width: 100%;
-	/* background-color: cyan; */
+	background-color: #fcfcfc;
 	padding: 5rem 6rem;
 	> h2 {
 		color: black;
@@ -11,7 +11,7 @@
 		}
 	}
 	> p {
-		margin: 3dvh auto;
+		margin: 3vh auto;
 		width: 70%;
 		letter-spacing: 1px;
 		font-size: 1.8rem;
