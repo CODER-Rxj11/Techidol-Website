@@ -1,12 +1,12 @@
 import "./App.css";
-import { Services } from "./components";
-import { Timeline } from "./components";
+import { Footer, Services, Timeline } from "./components";
 
 function App() {
 	return (
 		<>
 			<Timeline />
 			<Services />
+			<Footer />
 		</>
 	);
 }
