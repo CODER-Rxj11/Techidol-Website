@@ -1,5 +1,5 @@
 .promotion {
-	min-height: 70%;
+	min-height: 100%;
 	background-color: #fcfcfc;
 	display: flex;
 	align-items: center;
@@ -7,8 +7,8 @@
 	padding: 4rem 8rem;
 	.description {
 		width: 55%;
-		height: 60vh;
-		height: 10vh;
+		height: 100vh;
+		/* height: 10vh; */
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -33,9 +33,40 @@
 	}
 
 	.images {
-		width: 45%;
-		background-color: red;
-		height: 60vh;
+		width: 55%;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		position: relative;
+		flex-direction: column;
+		> img {
+			width: 40%;
+			position: absolute;
+		}
+		> .img1 {
+			width: 15%;
+			top: 0%;
+			left: 15%;
+		}
+		> .img2 {
+			width: 45%;
+			top: 1%;
+			left: 17%;
+			z-index: 1;
+		}
+		> .img3 {
+			width: 45%;
+			top: 20%;
+			left: 35%;
+			z-index: 1;
+		}
+		> .img4 {
+			width: 45%;
+			top: 45%;
+			left: 17%;
+			z-index: 0;
+		}
 	}
 }
 

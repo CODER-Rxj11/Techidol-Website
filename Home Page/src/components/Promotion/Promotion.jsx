@@ -1,3 +1,8 @@
+import dots from "../../assets/images/dots.png";
+import halfimg1 from "../../assets/images/halfimg1.png";
+import halfimg2 from "../../assets/images/halfimg2.png";
+import halfimg3 from "../../assets/images/halfimg3.png";
+
 import "./Promotion.css";
 function Promotion() {
 	const features = [
@@ -27,9 +32,10 @@ function Promotion() {
 				))}
 			</div>
 			<div className="images">
-				<img src="" alt="" />
-				<img src="" alt="" />
-				<img src="" alt="" />
+				<img className="img1" src={dots} alt="" />
+				<img className="img2" src={halfimg1} alt="" />
+				<img className="img3" src={halfimg2} alt="" />
+				<img className="img4" src={halfimg3} alt="" />
 			</div>
 		</div>
 	);
