@@ -1,5 +1,6 @@
 .services {
 	min-height: 40%;
+	position: relative;
 	width: 100%;
 	background-color: var(--servicesbg);
 	padding: 5rem 6rem;
@@ -16,7 +17,37 @@
 	> button {
 		padding: 1.2rem 2.6rem;
 		background-color: var(--secondary);
-		margin: 2rem auto;
+		margin: 2.3rem auto;
 		display: block;
+		border: none;
+		outline: none;
+		border-radius: 5px;
+		color: white;
+		font-size: 2rem;
+	}
+	> div {
+		min-height: 50%;
+		display: flex;
+		align-items: center;
+		width: 100%;
+		padding: 2rem 1rem;
+		> img {
+			width: 40%;
+			/* height: auto; */
+			/* height: 10%; */
+			object-fit: cover;
+		}
+		> div {
+			height: 40%;
+			width: 50%;
+			background-color: red;
+		}
+	}
+	> img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 30%;
 	}
 }
