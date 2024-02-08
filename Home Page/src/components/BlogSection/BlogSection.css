@@ -1,0 +1,42 @@
+.blog-section {
+	padding: 5rem 20rem;
+	background-color: #d6e0e9;
+}
+
+.blog-nav {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: center;
+	gap: 15rem;
+	border-bottom: 1px solid black;
+
+	> a {
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+	> a:nth-child(1) {
+		border-bottom: 2px solid cyan;
+	}
+
+	> .search {
+		margin-bottom: 1rem;
+	}
+
+	> .search button {
+		font-size: 12px;
+		letter-spacing: 2px;
+	}
+	> img,
+	svg {
+		margin-left: 1rem;
+		font-size: 20px;
+	}
+
+	> img,
+	svg:nth-child(2) {
+		margin-left: 2rem;
+		color: gray;
+	}
+}
