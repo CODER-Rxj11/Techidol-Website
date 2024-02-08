@@ -4,6 +4,6 @@ import Footer from "./Footer/Footer";
 import Articles from "./Articles/Articles";
 import Promotion from "./Promotion/Promotion";
 import Subscription from "./Subscription/Subscription";
-import Testinomials from "./Testinomials/Testinomials";
+import Testinomial from "./Testinomial/Testinomial";
 
-export { Services, Timeline, Footer, Articles, Promotion, Subscription, Testinomials };
+export { Services, Timeline, Footer, Articles, Promotion, Subscription, Testinomial };
