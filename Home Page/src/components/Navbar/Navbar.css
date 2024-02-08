@@ -1,0 +1,50 @@
+.navbar {
+	width: 80%;
+	margin: 0 auto;
+	padding: 2rem 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-top: 1em;
+	background-color: white;
+	border-radius: 10px;
+	> img {
+		width: 25%;
+	}
+	> .links {
+		flex-direction: row;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.4rem;
+	}
+}
+
+.links a {
+	color: black;
+	margin: 0 1rem;
+	font-weight: 600;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.links a:nth-child(1) {
+	color: #06d6a0;
+}
+
+.links a:active {
+	color: #06d6a0;
+}
+
+button {
+	background-color: #06d6a0;
+	color: #fff;
+	border: none;
+	padding: 1rem 2rem;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 5px;
+}

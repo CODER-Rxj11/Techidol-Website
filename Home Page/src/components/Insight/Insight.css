@@ -1,0 +1,47 @@
+.insights {
+	background-image: url("../../assets/images/bgheader.png");
+	padding-bottom: 10em;
+	background-position: center;
+	background-size: cover;
+}
+
+.start {
+	padding-top: 1em;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contact-links a,
+.social-links a {
+	display: inline-block;
+	margin-left: 1em;
+	text-decoration: none;
+	color: white;
+	text-align: unset;
+	font-size: 18px;
+}
+
+.contact-links a span {
+	font-size: 22px;
+}
+
+.social-links a {
+	font-size: 22px;
+}
+
+h3 {
+	padding: 5rem 0;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+}
+
+h1 {
+	color: white;
+	font-weight: 600;
+}
