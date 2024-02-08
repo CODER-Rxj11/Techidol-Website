@@ -6,26 +6,22 @@ function Contact() {
 				<h1>
 					Let&apos;s Connect and <span>Discuss</span>
 				</h1>
-				<h3>Contact Us Now</h3>
+				<h3 className="contact-heading">Contact Us Now</h3>
 
 				<div className="contact-box">
 					<div className="contact-left">
 						<h3>What makes us different?</h3>
-						<p>Consistency</p>
-						<p>Solution Approach</p>
-						<p>Partnerships</p>
-						<p className="regional">
-							{" "}
-							Regional Language Expertise
-							<p className="left-para">
-								We talk and understand almost every regional language in India. With ourhybrid mode of Work from office and work from
-								anywhere, we help our clients build scale.
-							</p>
-						</p>
+
+						<div className="left-cols">
+							<p>Consistency</p>
+							<p>Solution Approach</p>
+							<p>Partnerships</p>
+							<p>Regional Language Expertise</p>
+						</div>
 					</div>
 
 					<div className="contact-right">
-						<p className="heading-right">Discover how we can help your business grow</p>
+						<h2 className="heading-right">Discover how we can help your business grow</h2>
 						<form>
 							<div className="input-row1">
 								<div className="input-group">
@@ -46,7 +42,12 @@ function Contact() {
 							</div>
 
 							<div className="input-group-message">
-								<input type="text" id="message-txtbox" placeholder="Your Message" />
+								{/* <input
+                  type="text"
+                  id="message-txtbox"
+                  placeholder="Your Message"
+                /> */}
+								<textarea placeholder="Your Message" id="message-txtbox" cols="30" rows="10"></textarea>
 							</div>
 						</form>
 
