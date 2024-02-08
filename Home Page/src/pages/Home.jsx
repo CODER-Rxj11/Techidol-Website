@@ -1,4 +1,4 @@
-import { Services, Timeline, Articles, Promotion } from "../components";
+import { Services, Timeline, Articles, Promotion, Subscription, Testinomials } from "../components";
 function Home() {
 	return (
 		<>
@@ -6,6 +6,8 @@ function Home() {
 			<Services />
 			<Articles />
 			<Promotion />
+			<Subscription />
+			<Testinomials />
 		</>
 	);
 }

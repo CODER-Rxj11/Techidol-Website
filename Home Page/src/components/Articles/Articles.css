@@ -35,14 +35,15 @@
 				font-size: 4rem;
 			}
 			&:hover {
-				background-color: #3a6a95;
+				background-color: var(--servicesbg);
 			}
 		}
 	}
 }
 
 .cta {
-	background-color: #527b9f;
+	background-color: var(--servicesbg);
+	/* background-color: #527b9f; */
 	height: 80%;
 	border-radius: 7px;
 	width: 26%;

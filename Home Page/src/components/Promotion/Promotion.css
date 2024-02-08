@@ -4,7 +4,7 @@
 	display: flex;
 	align-items: center;
 	gap: 2rem;
-	padding: 4rem 8rem;
+	padding: 4rem 17rem;
 	.description {
 		width: 55%;
 		height: 100vh;
@@ -17,7 +17,7 @@
 			font-size: 4.5rem;
 			line-height: 1.2;
 			text-align: left;
-			width: 80%;
+			width: 90%;
 			font-weight: 700;
 			text-wrap: balance;
 			margin-bottom: 3rem;
@@ -33,7 +33,7 @@
 	}
 
 	.images {
-		width: 55%;
+		width: 45%;
 		height: 100vh;
 		display: flex;
 		align-items: center;
@@ -46,25 +46,25 @@
 		}
 		> .img1 {
 			width: 15%;
-			top: 0%;
-			left: 15%;
+			top: 10%;
+			left: 33%;
 		}
 		> .img2 {
-			width: 45%;
-			top: 1%;
-			left: 17%;
-			z-index: 1;
-		}
-		> .img3 {
-			width: 45%;
-			top: 20%;
+			width: 50%;
+			top: 10%;
 			left: 35%;
 			z-index: 1;
 		}
+		> .img3 {
+			width: 50%;
+			top: 26%;
+			left: 55%;
+			z-index: 1;
+		}
 		> .img4 {
-			width: 45%;
-			top: 45%;
-			left: 17%;
+			width: 50%;
+			top: 49%;
+			left: 35%;
 			z-index: 0;
 		}
 	}
@@ -77,9 +77,9 @@
 	margin-bottom: 1.8rem;
 	> div {
 		border-radius: 5px;
-		padding: 1rem;
+		padding: 0.7rem;
 		width: fit-content;
-		border: 1px solid var(--secondary);
+		border: 1.5px solid var(--secondary);
 		> div {
 			height: 3rem;
 			width: 3rem;

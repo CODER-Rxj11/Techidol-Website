@@ -1,5 +1,5 @@
-.timeline {
-	min-height: 50%;
+.timeLine {
+	min-height: 50vh;
 	width: 100%;
 	background-color: #fcfcfc;
 	padding: 5rem 6rem;
@@ -24,3 +24,54 @@
 		margin: 2rem auto;
 	}
 }
+
+/* HorizontalTimeline.css */
+/* .horizontal-timeline {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	height: 50vh;
+}
+
+.timeline {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start; /* Align items at the start 
+}
+
+.timeline-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.timeline-circle {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.timeline-content {
+	background-color: #f9f9f9;
+	padding: 10px 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 
+	max-width: 200px;
+	margin-top: -10px;
+}
+
+.timeline-line {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 2px;
+	background-color: #ccc;
+	z-index: -1;
+} */

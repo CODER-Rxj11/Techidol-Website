@@ -1,0 +1,60 @@
+.subscription {
+	height: 60%;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	background-color: var(--primary);
+	> div {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		padding: 6rem 2rem;
+		align-items: center;
+		justify-content: flex-start;
+		row-gap: 2rem;
+		> h2 {
+			color: #fcfcfc;
+			font-weight: 600;
+			font-size: 3.6rem;
+			width: 80%;
+			text-align: left;
+		}
+		> p {
+			text-align: left;
+			font-size: 1.6rem;
+			font-weight: 400;
+			width: 80%;
+			color: #fcfcfc;
+		}
+		> form {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			gap: 2rem;
+			width: 80%;
+			> input {
+				padding: 1rem 2.2rem;
+				font-size: 2rem;
+				width: 60%;
+				border-radius: 5px;
+				border: none;
+				outline: none;
+			}
+			> button {
+				padding: 1rem 2.2rem;
+				font-size: 2rem;
+				background-color: var(--secondary);
+				border: none;
+				border-radius: 5px;
+				font-weight: 500;
+				color: #fcfcfc;
+			}
+		}
+	}
+	> img {
+		display: block;
+		/* width: 35%; */
+		margin-left: auto;
+	}
+}
