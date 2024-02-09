@@ -119,11 +119,11 @@ export default function Testinomial() {
                     </SwiperSlide>
 
                 </Swiper>
-                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
-                    <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
-                    <span class="swiper-pagination-bullet"></span>
-                    <span class="swiper-pagination-bullet"></span>
-                    <span class="swiper-pagination-bullet"></span>
+                <div className="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                    <span className="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                    <span className="swiper-pagination-bullet"></span>
+                    <span className="swiper-pagination-bullet"></span>
+                    <span className="swiper-pagination-bullet"></span>
                 </div>
                 <article>
 				<div>
