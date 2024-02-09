@@ -2,13 +2,15 @@ import FAQ from "../components/FAQ/FAQ";
 import GetInTouch from "../components/GetInTouch/GetInTouch";
 import Insight from "../components/Insight/Insight";
 import ReachOut from "../components/ReachOut/ReachOut";
-const url = "Home/Contact"
-const heading="Contact Us"
+const url = "Home/Contact";
+const heading = "Contact Us";
 export default function Contact() {
-    return <>
-        <Insight url={url} heading={heading} />
-        <ReachOut />
-        <GetInTouch />
-        <FAQ />
-    </>
+	return (
+		<>
+			<Insight url={url} heading={heading} />
+			<ReachOut />
+			<GetInTouch />
+			<FAQ />
+		</>
+	);
 }
