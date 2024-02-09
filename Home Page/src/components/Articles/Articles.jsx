@@ -33,10 +33,7 @@ export const CTA = ({ img, heading, date }) => {
 
 			<div>
 				<h3>{heading}</h3>
-				<div>
-					<a href="#">Read More</a>
-					<p>{date}</p>
-				</div>
+					<button>Read More</button>
 			</div>
 		</div>
 	);

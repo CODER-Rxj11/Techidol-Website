@@ -1,0 +1,64 @@
+.reachout{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    background-color: #dbe4ec;
+
+    > .left{
+        width: 70%;
+        padding: 5rem;
+        padding-right: 0;
+        h1{
+            color: black;
+            padding: 0;
+            font-size: 7rem;
+            text-align: start;
+            font-weight:600;
+            /* background-color: red; */
+            > span{
+                color: var(--primary);
+            }
+        }
+        > .rows {
+            margin-top: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+            margin-bottom: 1.8rem;
+            > div {
+                border-radius: 5px;
+                padding: 0.7rem;
+                width: fit-content;
+                border: 1.5px solid var(--primary);
+                > div {
+                    height: 3rem;
+                    width: 3rem;
+                    border-radius: 5px;
+                    background-color: var(--primary);
+                }
+            }
+            > p {
+                font-size: 1.8rem;
+                font-weight: 600;
+                text-align: left;
+            }
+        }
+    }
+
+    > .right{
+        width: 50%;
+        height: 100%;
+        padding-left: 3rem;
+        
+        margin: auto 0;
+        /* background-color: pink; */
+
+        > img{
+            margin-right: 12rem;
+            width: 80%;
+        }
+    }
+
+    
+}

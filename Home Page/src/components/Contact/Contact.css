@@ -157,7 +157,7 @@ p {
 .container {
 	margin-top: 20px;
 	margin-left: 10px;
-	background-color: #7496b4;
+	/* background-color: #7496b4; */
 	color: hsl(300, 20%, 99%);
 }
 
