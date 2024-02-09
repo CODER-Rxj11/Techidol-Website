@@ -1,0 +1,54 @@
+.blog-component {
+	margin: 2rem 0;
+	width: 100%;
+	display: flex;
+	background-color: #fff;
+	> img {
+		width: 25%;
+	}
+
+	> .content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		padding: 4rem 2rem;
+		margin-left: 2rem;
+		row-gap: 3rem;
+		width: 100%;
+
+		> h5 {
+			font-size: 14px;
+			color: #3a6a95;
+			font-weight: 600;
+		}
+
+		> h1 {
+			color: black;
+			margin-left: 0;
+			padding: 0;
+			text-align: left;
+			font-size: 4rem;
+		}
+
+		> .info {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+
+			> a {
+				font-size: 16px;
+				color: #3a6a95;
+				font-weight: 600;
+			}
+
+			> h4 {
+				font-size: 16px;
+				margin-bottom: 0;
+				color: #3a6a95;
+				font-weight: 600;
+			}
+		}
+	}
+}
