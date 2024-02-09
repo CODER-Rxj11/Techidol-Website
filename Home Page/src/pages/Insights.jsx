@@ -3,7 +3,7 @@ import Insight from "../components/Insight/Insight";
 function Insights() {
 	return (
 		<>
-			<Insight />
+			<Insight url="Home/Insights" heading="Insights" />
 		</>
 	);
 }
