@@ -3,7 +3,7 @@ import { CiMail } from "react-icons/ci";
 import { FaLinkedin, FaFacebook, FaTwitter, FaPhoneAlt } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import Navbar from "../Navbar/Navbar";
-function Insight() {
+function Insight({url,heading}) {
 	return (
 		<div className="insights">
 			<section className="start">
@@ -34,8 +34,8 @@ function Insight() {
 				</div>
 			</section>
 			<Navbar />
-			<h3>Home/Insight</h3>
-			<h1>Insights</h1>
+			<h3>{url}</h3>
+			<h1>{heading}</h1>
 		</div>
 	);
 }

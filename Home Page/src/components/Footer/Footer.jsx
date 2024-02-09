@@ -86,12 +86,12 @@ const Footer = () => {
 					<div className="copyright">
 						&copy; Copyright{" "}
 						<strong>
-							<span>Gilqo</span>
+							<span>Techidol Solutions</span>
 						</strong>
 						.
 					</div>
 					<div className="credits mr-5">
-						Designed by <b>The Prothagonist&apos;s</b>
+					©2018 - Form  |   All right reserved
 					</div>
 				</div>
 			</footer>

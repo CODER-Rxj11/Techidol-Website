@@ -28,7 +28,10 @@
 		> h3 {
 			width: 80%;
 			font-weight: 600;
+			color: black;
+			margin: 0;
 			margin-bottom: 4rem;
+			padding: 0;
 		}
 	}
 
