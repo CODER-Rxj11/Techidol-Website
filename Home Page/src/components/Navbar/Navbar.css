@@ -1,7 +1,7 @@
 .navbar {
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
-	padding: 2rem 1rem;
+	padding: 1.5rem 3rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -10,14 +10,14 @@
 	background-color: white;
 	border-radius: 10px;
 	> img {
-		width: 25%;
+		width: 10vw;
 	}
 	> .links {
 		flex-direction: row;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		gap: 0.4rem;
+		gap: 0.6rem;
 	}
 }
 

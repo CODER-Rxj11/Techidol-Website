@@ -26,6 +26,9 @@
 
 .contact-links a span {
 	font-size: 22px;
+	> svg {
+		color: white;
+	}
 }
 
 .social-links a {
