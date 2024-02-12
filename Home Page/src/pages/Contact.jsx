@@ -6,7 +6,7 @@ const url = "Home/Contact"
 const heading="Contact Us"
 export default function Contact() {
     return <>
-        <Insight url={url} heading={heading} />
+        <Insight />
         <ReachOut />
         <GetInTouch />
         <FAQ />
