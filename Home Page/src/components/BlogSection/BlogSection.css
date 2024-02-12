@@ -1,5 +1,5 @@
 .blog-section {
-	padding: 5rem 20rem;
+	padding: 5rem 8rem;
 	background-color: #d6e0e9;
 }
 
@@ -7,12 +7,11 @@
 	display: flex;
 	align-items: center;
 	width: 100%;
-	justify-content: center;
-	gap: 15rem;
+	justify-content: space-between;
 	border-bottom: 1px solid black;
 
 	> a {
-		font-size: 20px;
+		font-size: 2vw;
 		font-weight: 600;
 	}
 

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Logo from "../../assets/images/Logo.png";
 import "./Navbar.css";
 import { IoIosArrowDown } from "react-icons/io";
@@ -6,14 +7,14 @@ function Navbar() {
 		<nav className="navbar">
 			<img src={Logo} alt="TechIdol Logo" />
 			<div className="links">
-				<a href="">Home</a>
-				<a href="">About</a>
-				<a href="">
+				<NavLink to="/">Home</NavLink>
+				<NavLink to="/about">About</NavLink>
+				<NavLink to="/service">
 					Services <IoIosArrowDown />
-				</a>
-				<a href="">Insights</a>
-				<a href="">Career</a>
-				<a href="">Contact</a>
+				</NavLink>
+				<NavLink to="/insight">Insights</NavLink>
+				<NavLink to="/carrer">Career</NavLink>
+				<NavLink to="/contact">Contact</NavLink>
 			</div>
 			<button>Get a Quote</button>
 		</nav>
